@@ -42,6 +42,7 @@ namespace Parser
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            listBox1.Text = string.Empty;
             parser.Abort();
         }
     }
